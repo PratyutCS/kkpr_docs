@@ -1,7 +1,5 @@
 import './App.css';
-import React, { PureComponent, useState } from 'react';
-
-import jsPDF from 'jspdf';
+import React, { useState } from 'react';
 
 const link = process.env.REACT_APP_API;
 
@@ -760,7 +758,6 @@ function App() {
               <br></br>
               <select className="form-select" name="postapplied" id="occupation"  onChange={onChange} defaultValue={formData.postapplied}>
                 <option value="" hidden checked>Select</option>
-                <option value="Dean">Dean</option>
                 <option value="Professor">Professor</option>
                 <option value="Assistant Professor">Assistant Professor</option>
               </select>
@@ -772,7 +769,7 @@ function App() {
               <select className="form-select" id="department" name="schoolapplied"  onChange={onChange}>
                 <option value="" hidden checked>Select</option>
                 <option value="School of Engineering">SOET</option>
-                <option value="Schoolof Management">SOM</option>
+                <option value="School of Management">SOM</option>
                 <option value="School of Law">SOL</option>
               </select>
             </div>
