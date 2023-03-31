@@ -1,0 +1,1191 @@
+@import url('https://fonts.googleapis.com/css?family=Ruda');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ruda';
+    background-color: #f6f0f0;
+}
+table{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+textarea{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+input[type = "text"]{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input[type = "email"]{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+input[type = "date"]{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input[type = "tel"]{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input[type = "number"]{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.apply{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.apply h1{
+    font-weight: 400;
+    font-size: 1.7rem;
+    border-bottom: 3px solid #F2656A;
+    width: 16vw;
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+.apply p{
+    padding-top: 1%;
+    font-size: 1rem;
+    margin: auto;
+    width: 85vw;
+    /* background-color: antiquewhite; */
+}
+.form{
+    padding-top: 4%;
+    margin: auto;
+    width: 85%; 
+    /* background-color: red; */
+}
+.osbox{
+    padding-top: 5%; 
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 10px 20px 20px 10px;
+    justify-content: space-evenly;
+}
+.form-select{
+    width: 37vw;
+    padding: 3%;
+    border: 1.8px solid transparent;
+    outline:  1.8px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+.form-select:focus{
+    border: 1.8px solid transparent;
+    outline:  1.8px solid #F2656A;
+}     
+.pd{
+    font-size: 1.7rem;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin-left: 4%;
+    margin-top: 2%;
+    /* border-bottom: 3px solid #F2656A; */
+    /* font-weight: normal; */
+    width: 14vw;
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+sup{
+    color: #F2656A;
+    font-size: 1.7wrem;
+}
+input[type="radio"]{
+    accent-color: #F2656A;
+    width: 19px;
+    height: 19px;
+}
+#female{
+    margin-left: 2%;
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    /* margin-right: 25%; */
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+.name input{
+    padding: 3%;
+    background-color: white;
+    width: 22vw;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: 2px solid #F2656A;
+    /* margin: 3%; */
+}
+#first{
+    margin-top: 1%;
+}
+#middle{
+    margin-right: 2%;
+    margin-top: 2%;
+}
+#last{
+    margin-top: 1%;
+}
+.maridob{
+    /* margin-right: 23%; */
+    margin-top: 4%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around   ;
+}
+.marir{
+    margin-top: 7%;
+    width: 15vw;
+    /* background-color: #F2656A; */
+}
+.birth{
+    margin-top: 2%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    width: 22vw;
+    padding: 2%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.gen h4{
+    font-size: 1.5rem;
+}
+.dob h4{
+    font-size: 1.5rem;
+}   
+.genr{
+    margin-top: 7%;
+    width: 15vw;
+}
+.marit{
+    width: 22vw;
+    margin-left: 0.5%;
+}
+.gen{
+    width: 22vw;
+}
+.dob{
+    width: 22vw;
+}
+.corres{
+    margin-top: 2%;
+    margin-left: 3.6%;
+}
+.corres input{
+    background-color: white;
+    width: 19vw;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    padding: 3%;
+}
+.corres h4{
+    font-size: 1.5rem;
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.fcorres{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.fcorres input{
+    background-color: white;
+    width: 19vw;
+    padding: 3%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.lane{
+    margin-top: 0.4%;
+}
+.pincode{
+    margin-right: 0.4%;
+}
+.phone{
+    margin-left: 0.4%;
+    margin-top: 0.4%;
+}
+
+.scorres{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+.country{
+    margin-left: 2%;
+}
+.pincode{
+    margin-left: 1%;
+}
+.states{
+    width: 19vw;
+    padding: 4%;
+    background-color: white;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.countrys{
+    width: 19vw;
+    padding: 4%;
+    background-color: white;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tcorres{
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+.tcorres input{
+    width: 22vw;
+    padding: 3%;
+}
+.mobile{
+    width: 22vw;
+}
+.pemail{
+    width: 22vw;
+    margin-left: 3%;
+}
+.aemail{
+    width: 22vw;
+    margin-left: 3%;
+    margin-top: 0.3%;
+}
+.pe{
+    font-size: 1.5rem;
+    margin-left: 3.5%;
+}
+.pe h4{
+    margin-top: 3%;
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}   
+.dorg{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.dorg input{
+    background-color: white;
+    padding: 3%;
+    width: 22vw;
+    border: transparent;
+    outline: 2px solid #F2656A;
+}
+.doj{
+    margin-right: 12%;
+    margin-bottom: 0.4;
+}
+.doj input{
+    padding: 2.6%;
+}
+.orga{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.payinfo{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 4%;
+    /* justify-content: space-between; */
+}
+.payinfo input{
+    background-color: white;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    padding: 3%;
+    width: 22vw;
+}
+.sopb{
+    margin-right: 1.5%;
+}
+
+.terb{
+    margin-left: 1.5%;
+}
+.payinfo label{
+    font-size: 1.5rem;
+}
+.pb{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.areas{
+    margin-top: 2%;
+    /* display: flex; */
+    margin-left: 4%;
+}
+.areas textarea{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    margin-top: 1%;
+    padding: 1%;
+    width: 31vw;
+}
+.areas label{
+    font-size: 1.5rem;
+}
+.aorb {
+    margin-top: 2%;
+}
+
+/* Academic Record Table */
+
+.arb{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.arb h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.arb table{
+    margin-top: 2%;
+}
+.arb input{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 2%;
+    width: 14.4vw;
+}
+.arb th{
+    padding: 0.7%;
+    width: 15vw;
+    /* background-color: aqua; */
+    border: 1px solid #F2656A;
+    background-color: white;
+    margin: 2%;
+    font-size: 1.2rem;
+}
+/* .arblast input{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 2%;
+    width: 12.4vw;
+} */
+.ar1{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+
+/* Past Employment Table */
+
+.peb{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.peb h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.peb input{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 2%;
+    width: 13vw;
+}
+/* .peblast input{
+    background-color: #F2656A;
+} */
+.peb th{
+    padding: 0.5%;
+    width: 15vw;
+    /* background-color: aqua; */
+    border: 1px solid #F2656A;
+    background-color: white;
+    margin: 2%;
+    font-size: 1.1rem;
+}
+.peb table{
+    margin-top: 2%;
+}
+.ar2{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+
+/* Teaching Experience Table 1 */
+
+.teb h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+    margin-left: 2.4%;
+    margin-top: 2%;
+}
+.teb select{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 3%;
+    width: 15.1vw;
+}
+.teb input{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 3%;
+    width: 14.1vw;
+}
+.teb th{
+    padding: 0.5%;
+    width: 15vw;
+    /* background-color: aqua; */
+    border: 1px solid #F2656A;
+    background-color: white;
+    margin: 2%;
+    font-size: 1.1rem;
+}
+.teb ol{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.teb li{
+    margin-top: 2%;
+    list-style: lower-alpha;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.teb table{
+    margin-top: 1%;
+}
+.ar3{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+.ar4{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+.ar5{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+.ar6{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+.ar7{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+.ar8{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+.ar9{
+    margin-top: 2%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+.ar10{
+    margin-top: 2%;
+    margin-left: 2.5%;
+    background-color: #F2656A;
+    padding: 5px 12px 5px 12px;
+    border: transparent;
+    outline: 2px solid black;
+}
+
+/* Research Experience Table */
+
+.reb{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.reb h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.reb input{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 2%;
+    width: 14.5vw;
+}
+.reb th{
+    padding: 0.5%;
+    width: 15vw;
+    /* background-color: aqua; */
+    border: 1px solid #F2656A;
+    background-color: white;
+    margin: 2%;
+    font-size: 1.1rem;
+}
+.reb ol{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.reb li{
+    margin-top: 2%;
+    list-style: lower-alpha;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.reb table{
+    margin-top: 1%;
+}
+.ret{
+    background-color: white;
+    border: 1px solid #F2656A;
+    width: 30vw;
+}
+.pubtable input{
+    width: 14.5vw;
+}
+/* Industrial Experience */
+.ieb{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.ieb h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.ieb input{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 2%;
+    width: 14.4vw;
+}
+.ieb th{
+    padding: 0.5%;
+    width: 15vw;
+    /* background-color: aqua; */
+    border: 1px solid #F2656A;
+    background-color: white;
+    margin: 2%;
+    font-size: 1.1rem;
+}
+.ieb table{
+    margin-top: 1%;
+    margin-left: 2.6%;
+}
+
+/* Membership Table */
+
+.mb{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.mb h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.mb input{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 2%;
+    width: 14.4vw;
+}
+.mb th{
+    padding: 0.5%;
+    width: 15vw;
+    /* background-color: aqua; */
+    border: 1px solid #F2656A;
+    background-color: white;
+    margin: 2%;
+    font-size: 1.1rem;
+}
+.mb table{
+    margin-top: 1%;
+    margin-left: 2.6%;
+}
+
+/* Awards */
+
+.awr{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 3%;
+}
+.awr textarea{
+    margin-top: 2%;
+    margin-left: 9%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    padding: 3%;
+    width: 30vw;
+    height: 25vh;
+}
+.awr label{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 2%;
+    width: 27vw;
+}
+
+/* Reference Address */
+
+.refaddress{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.refaddress h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 1%;
+}
+
+.refname{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    /* margin-right: 25%; */
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+.refname input{
+    padding: 2%;
+    background-color: white;
+    width: 22vw;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: 2px solid #F2656A;
+    /* margin: 3%; */
+}
+
+.refdetail{
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 1.5rem;
+    /* margin-right: 25%; */
+    margin-top: 2%;
+    margin-left: 3.5%;
+}
+.refdetail input{
+    padding: 2%;
+    background-color: white;
+    width: 22vw;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: 2px solid #F2656A;
+    /* margin: 3%; */
+}
+.rab{
+    margin-left: 4.7%;
+}
+.refdigi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    /* margin-right: 25%; */
+    margin-top: 2%;
+    margin-left: 3.4%;
+}
+.refdigi input{
+    padding: 2%;
+    background-color: white;
+    width: 22vw;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: 2px solid #F2656A;
+    /* margin: 3%; */
+}
+.refma{
+    width: 22vw;
+}
+.refmo{
+    width: 22vw;
+}
+.refla{
+    width: 22vw;
+    margin-right: 3%;
+}
+.refaddress li{
+    font-size: 1.5rem;
+    margin-left: 4%;
+}
+
+.declare{
+    font-size: 1.5rem;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.submited{
+    padding: 10px 25px 10px 25px;
+    background-color: #F2656A;
+    margin-top: 3%;
+    margin-left: 40vw;
+    margin-bottom: 5%;
+}
+
+
+
+/* Nav Bar */
+*{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#header{
+    position: fixed;
+    width:100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 7.5px 15px;
+}
+.header2{
+    width:100%;
+    /* background-color: #e7e6e7; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.covid{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
+    font-size: 1.9vh;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+.covid:hover{
+    text-decoration: none;
+    color: white;
+}
+.qq{
+    padding-right:3vw;
+}
+#logo{
+    padding: 0;
+    height: 9vh;
+    width: 19.5vw;
+}
+.btn-group{
+    position: fixed;
+    width:12vw;
+    margin-right: 1vw;
+    margin-top: 2.4vh;
+    margin-bottom: 2.4vh;
+    font-size: 3vw;
+}
+#mbtn{
+    background-color: #f14a47;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
+.sec2{
+    /* background-color: white; */
+    padding-top: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#download{
+    position: fixed;
+    right: 1vw;
+    bottom: 1vh;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    color: black;
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    transition: 1s;
+}
+#download:hover{
+    color: white;
+    background-color: black;
+}
+.ids{
+    width: 70vw;
+    box-shadow: rgba(241,74,71, 0.4) 5px 5px, rgba(241,74,71, 0.3) 10px 10px, rgba(241,74,71, 0.2) 15px 15px, rgba(241,74,71, 0.1) 20px 20px, rgba(241,74,71, 0.05) 25px 25px, rgba(241,74,71, 0.4) -5px 5px, rgba(241,74,71, 0.3) -10px 10px, rgba(241,74,71, 0.2) -15px 15px, rgba(241,74,71, 0.1) -20px 20px, rgba(241,74,71, 0.05) -25px 25px;
+}
+@media screen and (max-width: 950px) {
+    #download{
+        right:2vw;
+        bottom:2vh;
+    }
+    .header1{
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .b1{
+        width: 100%;
+        background-color: #f14a47;
+        height: 4.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .b2{
+        width: 100%;
+        background-color: #363636;
+        height: 4.5vh;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .lolbtn{
+        display: none !important;
+    }
+    .qq{
+        font-size: 1.5vh;
+    }
+    .btn-group{
+        width:30vw;
+    }
+    #logo{
+        width:35vw;
+    }
+    #mbtn{
+        font-size: 2vh;
+    }
+    .sec2{
+        padding-top: 18vh;
+        height: 91vh;
+    }
+    .mainimg{
+        margin: auto;
+        width: 95vw !important;
+        height: 42.5vh !important;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    ids {
+      height: 200vh;
+    }
+    .header1{
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .b1{
+        width: 42.5%;
+        background-color: #f14a47;
+        height: 4.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .b2{
+        width: 57.5%;
+        background-color: #363636;
+        height: 4.5vh;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+    }
+    .qaz{
+        display: none !important;
+    }
+    .mainimg{
+        width: 70vw;
+        height: 80vh;
+    }
+  }
+.heading{
+    font-family: 'Poppins';
+    font-size: 2vw;
+    font-weight: bolder;
+    margin: auto;
+}
+.dropdown-item{
+    font-family: 'Poppins';
+}
+.resbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lolbtn{
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color:#545252;
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: -0.1vh;
+    font-family: 'Ruda',sans-serif;
+    font-size: 2.15vh;
+    padding-right:2.5vw;
+    height: 100%;
+    border: none;
+}
+.lolbtn:hover{
+    text-decoration: none;
+    color: #fec258;
+}
+.publications{
+    margin-top: 3%;
+    margin-left: 2.7%;
+}
+.publications input{
+    background-color: white;
+    width: 19vw;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    padding: 3%;
+}
+.fpubli{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.fpubli input{
+    background-color: white;
+    width: 18vw;
+    padding: 3%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.totalcit{
+    margin-left:2% ;
+}
+.totalcit input{
+    width: 20vw;
+}
+.totalcit input{
+    padding: 3%;
+}
+.totalpubliinter{
+    margin-left: 1%;
+}
+.totalpubliinter input{
+    padding: 2%;
+    width: 22vw;
+}
+.spubli{
+    margin-top: 2%;
+    display: flex;
+    font-size: 1.5rem;
+}
+.spubli input{
+    padding: 1.5%;
+    margin-top: 1%;
+    width: 20vw;
+}
+.publications h2{
+    margin-top: 2%;
+}
+.publications h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.tpubli{
+    margin-top: 3%;
+    display: flex;
+    font-size: 1.5rem;
+}
+.tpubli input{
+    background-color: white;
+    width: 18vw;
+    padding: 3%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.escijourn{
+    margin-left: 3%;
+}
+.scijourn{
+    margin-top: 0.3%;
+    margin-left: 3%;
+}
+.fourpubli{
+    margin-top: 3%;
+    display: flex;
+    font-size: 1.5rem;
+}
+.fourpubli input{
+    background-color: white;
+    width: 18vw;
+    padding: 3%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.totalpapinter input{
+    padding: 1.5%;
+    margin-top: 1%;
+    width: 22vw;
+}
+.sciejourn{
+    margin-left: 3%;
+}
+.totalpapinter{
+    margin-left: 3%;
+}
+.fivepubli{
+    margin-top: 3%;
+    display: flex;
+    justify-content: stretch;
+    font-size: 1.5rem;
+}
+.fivepubli input{
+    background-color: white;
+    width: 30vw;
+    padding: 2%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1%;
+}
+.articlespublish{
+    margin-left: 2%;
+}
+.sixpubli{
+    margin-top: 4%;
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 1.5rem;
+}
+.sixpubli input{
+    background-color: white;
+    width: 20vw;
+    padding: 3%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1%;
+}
+.patentscr input{
+    padding: 2%;
+    width: 22vw;
+}
+.patentscr{
+    margin-top: -0.2%;
+    margin-left: 3%;
+}
+.sponsproj{
+    margin-left: 2%;
+    margin-top: -0.1%;
+}
+.sevenpubli{
+    margin-top: 4%;
+    display: flex;
+    font-size: 1.5rem;
+}
+.sevenpubli input{
+    background-color: white;
+    width: 20vw;
+    padding: 3%;
+    border: transparent;
+    outline: 2px solid #F2656A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1%;
+}
+.coursedeveloped input{
+    padding: 2%;
+}
+.coursedeveloped{
+    margin-top: -0.2%;
+    margin-left: 3%;
+}
+
+.sop{
+    margin-top: 3%;
+    /* display: flex; */
+    margin-left: 4%;
+}
+.sop textarea{
+    border: transparent;
+    outline: 2px solid #F2656A;
+    background-color: white;
+    margin-top: 1%;
+    padding: 1%;
+    width: 31vw;
+}
+.sop label{
+    font-size: 1.5rem;
+}
+.sop h4{
+    font-size: 1.5rem;
+    border-left: 4px solid #F2656A;
+    padding: 0.5%;
+}
+.sop > div{
+    margin-left: 4%;
+    margin-top: 2%;
+}
