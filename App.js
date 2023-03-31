@@ -1127,24 +1127,24 @@ function App() {
               <div className="hindex">
                 <label>h-index (by scopus.com)</label>
                 <br></br>
-                <input type="text" placeholder="h-index" name="correshno"  onChange={onChange} defaultValue={formData.hindex} />
+                <input type="number" min= '0' placeholder="h-index" name="hindex"  onChange={onChange} defaultValue={formData.hindex} />
               </div>
               <div className="totalcit">
                 <label>Total Citations (by scopus.com)	 </label>
                 <br></br>
-                <input type="text" placeholder="Total Citations" name="correslane" onChange={onChange} defaultValue={formData.totalcitations} />
+                <input type="number" min= '0' placeholder="Total Citations" name="totalcitations" onChange={onChange} defaultValue={formData.totalcitations} />
               </div>
               <div className="totalpubliinter">
                 <label>Total number of Publications in International Journals</label>
                 <br></br>
-                <input type="text" placeholder="Total number of Publications in International Journals" name="corresstreet"  defaultValue={formData.totalpubliinter} onChange={onChange} />
+                <input type="number" min= '0' placeholder="Total number of Publications in International Journals" name="totalpubliinter"  defaultValue={formData.totalpubliinter} onChange={onChange} />
               </div>
             </div>
 
             <div className="spubli">
               <div className="totalpublinati">
                 <label>Total number of Publications in National Journals</label>
-                <input type="text" name="corresstate" placeholder="Total number of Publications in National Journals" onChange={onChange} defaultValue={formData.totalpublinnati}></input>
+                <input type="number" min= '0' name="totalpublinnati" placeholder="Total number of Publications in National Journals" onChange={onChange} defaultValue={formData.totalpublinnati}></input>
               </div>
             </div>
 
@@ -1154,46 +1154,46 @@ function App() {
               <div className="scopjourn">
                 <label>Scopus indexed Journals<sup>*</sup></label>
                 <br></br>
-                <input type="text" placeholder="Scopus indexed Journals" name="corresmobile"  onChange={onChange} defaultValue={formData.scopjourn} />
+                <input type="number" min= '0' placeholder="Scopus indexed Journals" name="scopjourn"  onChange={onChange} defaultValue={formData.scopjourn} />
               </div>
               <div className="escijourn">
                 <label>ESCI indexed Journals<sup>*</sup> </label>
                 <br></br>
-                <input type="text" placeholder="ESCI indexed Journals" name="correspersmail"  onChange={onChange} defaultValue={formData.escijourn} />
+                <input type="number" min= '0' placeholder="ESCI indexed Journals" name="escijourn"  onChange={onChange} defaultValue={formData.escijourn} />
               </div>
               <div className="scijourn">
                 <label>SCI indexed Journals</label>
                 <br></br>
-                <input type="text" placeholder="SCI indexed Journals" name="corresaltmail" onChange={onChange} defaultValue={formData.scijourn} />
+                <input type="number" min= '0' placeholder="SCI indexed Journals" name="scijourn" onChange={onChange} defaultValue={formData.scijourn} />
               </div>
             </div>
             <div className="fourpubli">
               <div className="abdcjourn">
                 <label>ABDC indexed Journals<sup>*</sup></label>
                 <br></br>
-                <input type="text" placeholder="ABDC indexed Journals" name="corresmobile"  onChange={onChange} defaultValue={formData.abdcjourn} />
+                <input type="number" min= '0' placeholder="ABDC indexed Journals" name="abdcjourn"  onChange={onChange} defaultValue={formData.abdcjourn} />
               </div>
               <div className="sciejourn">
                 <label>SCIE indexed Journals<sup>*</sup> </label>
                 <br></br>
-                <input type="text" placeholder="SCIE indexed Journals" name="correspersmail"  onChange={onChange} defaultValue={formData.sciejourn} />
+                <input type="number" min= '0' placeholder="SCIE indexed Journals" name="sciejourn"  onChange={onChange} defaultValue={formData.sciejourn} />
               </div>
               <div className="totalpapinter">
                 <label>No. of Papers Presented in International Conferences</label>
                 <br></br>
-                <input type="text" placeholder="No. of Papers Presented in International Conferences" name="corresaltmail" onChange={onChange} defaultValue={formData.totalpapinter} />
+                <input type="number" min= '0' placeholder="No. of Papers Presented in International Conferences" name="totalpapinter" onChange={onChange} defaultValue={formData.totalpapinter} />
               </div>
             </div>
             <div className="fivepubli">
               <div className="totalpapnati">
                 <label>No. of Papers Presented in National Conferences</label>
                 <br></br>
-                <input type="text" placeholder="No. of Papers Presented in National Conferences" name="corresmobile"  onChange={onChange} defaultValue={formData.totalpapnati} />
+                <input type="number" min= '0' placeholder="No. of Papers Presented in National Conferences" name="totalpapnati"  onChange={onChange} defaultValue={formData.totalpapnati} />
               </div>
               <div className="articlespublish">
                 <label>No. of articles/ book chapters published </label>
                 <br></br>
-                <input type="text" placeholder="No. of articles/ book chapters published" name="correspersmail"  onChange={onChange} defaultValue={formData.articlespublish} />
+                <input type="number" min= '0' placeholder="No. of articles/ book chapters published" name="articlespublish"  onChange={onChange} defaultValue={formData.articlespublish} />
               </div>
 
             </div>
@@ -1201,17 +1201,17 @@ function App() {
               <div className="booksedit">
                 <label>Number of Books Edited</label>
                 <br></br>
-                <input type="text" placeholder="Number of Books Edited" name="corresaltmail" onChange={onChange} defaultValue={formData.booksedit} />
+                <input type="number" min= '0' placeholder="Number of Books Edited" name="booksedit" onChange={onChange} defaultValue={formData.booksedit} />
               </div>
               <div className="patentscr">
                 <label>No. of Patents/Copyrights (Filed/ Awarded)</label>
                 <br></br>
-                <input type="text" placeholder="No. of Patents/Copyrights (Filed/ Awarded)" name="correshno"  onChange={onChange} defaultValue={formData.patentscr} />
+                <input type="number" min= '0' placeholder="No. of Patents/Copyrights (Filed/ Awarded)" name="patentscr"  onChange={onChange} defaultValue={formData.patentscr} />
               </div>
               <div className="sponsproj">
                 <label>Sponsored Research Project</label>
                 <br></br>
-                <input type="text" placeholder="Sponsored Research Project" name="correslane" onChange={onChange} defaultValue={formData.sponsproj} />
+                <input type="number" min= '0' placeholder="Sponsored Research Project" name="sponsproj" onChange={onChange} defaultValue={formData.sponsproj} />
               </div>
             </div>
 
@@ -1221,11 +1221,11 @@ function App() {
               <div className="phdguided">
                 <label>No. of  Masters / PhD Guided</label>
                 <br></br>
-                <input type="text" placeholder="No. of  Masters / PhD Guided" name="corresstreet"  defaultValue={formData.phdguided} onChange={onChange} />
+                <input type="number" min= '0' placeholder="No. of  Masters / PhD Guided" name="phdguided"  defaultValue={formData.phdguided} onChange={onChange} />
               </div>
               <div className="coursedeveloped">
                 <label>Courses Developed </label>
-                <input type="text" name="corresstate" placeholder="Courses Developed " onChange={onChange} defaultValue={formData.coursesdeveloped}></input>
+                <input type="number" min= '0' name="coursesdeveloped" placeholder="Courses Developed " onChange={onChange} defaultValue={formData.coursesdeveloped}></input>
               </div>
             </div>
           </div>
