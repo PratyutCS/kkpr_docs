@@ -3,7 +3,8 @@ const path = require('path');
 const http = require('http');
 const bodyparser = require('body-parser');
 const cors = require('cors');
-const word = require('./word');
+const pdf = require('./pdf');
+const exceljs = require('./exceljs');
 
 const app = new Express();
 const link = "http://localhost:80/";
@@ -45,7 +46,8 @@ app.post("/lol", (req, res) => {
         name = (nam.firstname).trim() + "_" + (nam.middlename).trim() + "_" + (nam.lastname).trim();
         sName = (nam.firstname).trim() + " " + (nam.middlename).trim() + " " + (nam.lastname).trim();
     }
-    word.generatePdf(res,nam,link,sName,name);
+    exceljs.exceljs(nam,sName);
+    pdf.generatePdf(res,nam,link,sName,name);
 })
 
 app.get("*", (req, res) => {

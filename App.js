@@ -692,7 +692,7 @@ function App() {
   }
 
   async function handleSubmit() {
-    console.log(formData);
+    console.log('clicked');
     const resp = await window.fetch(link + 'lol', {
       method: "POST",
       headers: {
